@@ -1,0 +1,29 @@
+{
+  "name": "shattered-coast-roulette",
+  "version": "1.0.0",
+  "description": "Ruleta de retos para Fortnite Battle Royale (Capítulo 7 · Temporada 3 — Runners), inspirada en pokemon-roulette de zeroxm.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "fortnite",
+    "battle-royale",
+    "roulette",
+    "runners",
+    "chapter-7",
+    "game",
+    "html",
+    "css",
+    "javascript",
+    "svg"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TU-USUARIO/shattered-coast-roulette.git"
+  },
+  "homepage": "https://TU-USUARIO.github.io/shattered-coast-roulette/"
+}

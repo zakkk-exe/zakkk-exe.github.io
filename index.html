@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shattered Coast Roulette — Fortnite Runners</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="storm-bg" aria-hidden="true"></div>
+
+  <header class="top">
+    <div class="badge">CAP. 7 · TEMPORADA 3</div>
+    <h1>SHATTERED COAST <span>ROULETTE</span></h1>
+    <p class="sub">Gira la rueda y deja que la isla decida tu próxima partida — tema RUNNERS</p>
+  </header>
+
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Categorías de la ruleta"></nav>
+
+  <main class="stage">
+    <section class="wheel-panel">
+      <div class="wheel-wrap">
+        <div class="pointer" aria-hidden="true"></div>
+        <svg id="wheel" viewBox="0 0 400 400" class="wheel-svg">
+          <g id="wheelGroup"></g>
+        </svg>
+        <div class="hub" id="hub">🏝️</div>
+      </div>
+      <button id="spinBtn" class="spin-btn">GIRAR</button>
+      <p class="run-progress" id="runProgress"></p>
+    </section>
+
+    <section class="result-panel">
+      <div class="result-card" id="resultCard">
+        <span class="result-eyebrow">Resultado</span>
+        <h2 id="resultName">Gira para descubrir tu destino</h2>
+        <p id="resultDesc">Elige una categoría arriba o pulsa «Run Completo» para generar un reto de Runner entero: zona de caída, arma, Sprite, movilidad y una regla especial.</p>
+      </div>
+
+      <div class="run-card" id="runCard" hidden>
+        <span class="result-eyebrow">Tarjeta de Runner</span>
+        <ul id="runList"></ul>
+        <div class="run-actions">
+          <button id="copyRunBtn" class="ghost-btn">Copiar reto</button>
+          <button id="resetRunBtn" class="ghost-btn">Nuevo run</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    Adaptado del concepto de <a href="https://github.com/zeroxm/pokemon-roulette" target="_blank" rel="noopener">pokemon-roulette</a> de zeroxm, reimaginado para Fortnite Capítulo 7 · Temporada 3 (Runners).
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
