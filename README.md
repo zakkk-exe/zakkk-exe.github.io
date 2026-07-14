@@ -1,5 +1,5 @@
 # Shattered Coast Roulette 🏝️🎡
-
+If you want to play you must visit: https://zakkk-exe.github.io/
 ![License: MIT](https://img.shields.io/badge/license-MIT-29C4C4.svg)
 ![No build step](https://img.shields.io/badge/build-none%20needed-7C83FD.svg)
 
